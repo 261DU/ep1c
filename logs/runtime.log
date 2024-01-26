@@ -1,29 +1,11 @@
-2024-01-19 14:41:10 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-19 14:41:21 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-19 14:41:23 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-19 14:41:27 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-19 14:41:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that is different'}
-2024-01-19 14:41:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-19 14:41:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a desert'}
-2024-01-19 14:41:37 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a desert'}
-2024-01-19 14:41:46 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-19 14:42:19 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
-2024-01-19 14:42:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleasе click each image contaіning a dеsert'}
-2024-01-19 14:42:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Pleasе click each image contaіning a dеsert'}
-2024-01-19 14:42:25 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-19 14:42:28 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-01-19 14:42:37 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/ep1c/ep1c/epic/user_data_dir/epic-games@maxipoi/ctx_cookie.json')}
-2024-01-19 14:42:37 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-19 14:42:37 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'LOVE', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
-2024-01-19 14:42:37 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
-2024-01-19 14:42:46 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-01-19 14:42:48 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-01-19 14:42:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease click in the center of a pаttern'}
-2024-01-19 14:42:58 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-01-19 14:43:30 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
-2024-01-19 14:43:38 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-01-19 14:43:41 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-01-19 14:43:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click еach image cοntaining a desеrt'}
-2024-01-19 14:43:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click еach image cοntaining a desеrt'}
-2024-01-19 14:43:49 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-01-19 14:43:52 | SUCCESS    | epic_games.agent:claim_weekly_games:339 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
+2024-01-26 14:39:20 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-26 14:39:28 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-26 14:39:29 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-26 14:39:36 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-26 14:39:45 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-26 14:39:48 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-26 14:39:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please сlick on the obϳect that appears only onсe.'}
+2024-01-26 14:39:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:333 | handle task - {'select_model': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
+2024-01-26 14:40:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:333 | handle task - {'select_model': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
+2024-01-26 14:40:03 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-26 14:40:07 | SUCCESS    | epic_games.agent:claim_weekly_games:339 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
